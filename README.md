@@ -1,2 +1,2 @@
-# Js-Workshop
-One week Certification Course based on JavaScript, ReactJS
+# JS-Assignment
+LetsUpgrade JS Assignment

@@ -1,0 +1,35 @@
+<html>
+  <head>
+     <title>Write a JavaScript program to get the current date.</title>
+     <h2>The different date formats</h2>
+  </head>
+  <body>
+      <script>
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth()+1; 
+        var yyyy = today.getFullYear();
+        if(dd<10) 
+        {
+         dd='0'+dd;
+        } 
+        if(mm<10) 
+        {
+         mm='0'+mm;
+        } 
+        //mm-dd-yyyy format
+        today = mm+'-'+dd+'-'+yyyy;
+        document.write("mm-dd-yyyy format:"+today+"<br/>");
+        //mm/dd/yyyy format
+        today = mm+'/'+dd+'/'+yyyy;
+        document.write("mm/dd/yyyy format:"+today+"<br/>");
+        //dd-mm-yyyy format    
+        today = dd+'-'+mm+'-'+yyyy;
+        document.write("dd-mm-yyyy format:"+today+"<br/>");
+        //dd/mm/yyyy format
+        today = dd+'/'+mm+'/'+yyyy;
+        document.write("dd/mm/yyyy format:"+today+"<br/>");
+      </script>
+  </body>
+  </html>
+  
