@@ -1,0 +1,28 @@
+body {
+    background-image:url("https://tse4.mm.bing.net/th?id=OIP.TnCipj1rdbFWaHMDrCCQNgHaEK&pid=Api&P=0&w=372&h=210");
+    color:blue;
+}
+#heading{
+    text-align: center;
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#btn{
+    text-align: center;
+    position:relative;
+    left:600px;
+    height:50px;
+    width:100px;
+    top:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: skyblue;
+    font-size: large;
+
+}
+#quote{
+    color:silver;
+    text-align: center;
+    font-size:xx-large;
+    position:relative;
+    justify-content: center;
+}
